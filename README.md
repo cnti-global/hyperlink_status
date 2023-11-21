@@ -1,5 +1,4 @@
 # hyperlink_status
-R code for checking the status of hyperlinks in CNTI's issue primers.
 
 The Center for News, Technology & Innovation (CNTI) pledges to regularly update its issue primers with new information and research. As part of this process, it is essential to check the hyperlinked material for any "broken" or non-working links. One option is to manually click through each hyperlink to ensure it directs to the intended site. However, this process is time consuming. We developed the function in CNTI_CheckLinks_Final.R to automate this process. 
 
