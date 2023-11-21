@@ -9,7 +9,7 @@ We outline how the code works below should anyone like to apply it to their work
 As of November 21, 2023:
 
 
-# Introduction to the Code:
+## Introduction to the Code:
 The code is written in the R programming language and works best when using the R Studio IDE (integrated development environment). We include direct URLs to CNTI's issue primers for our own work, but these may be changed to any URLs a user pleases.
 
 # The "hyperlink_status" Function:
