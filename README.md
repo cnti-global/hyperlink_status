@@ -9,7 +9,7 @@ We outline how the code works below should anyone like to apply it to their work
 As of November 21, 2023:
 
 
-## Introduction to the Code:
+# Introduction to the Code:
 The code is written in the R programming language and works best when using the R Studio IDE (integrated development environment). We include direct URLs to CNTI's issue primers for our own work, but these may be changed to any URLs a user pleases.
 
 # The "hyperlink_status" Function:
@@ -24,6 +24,7 @@ Finally, we row bind the new information for each individual link together to cr
 # The "for loop" Section:
 This section of the code takes as the input each issue primer from above. The "hyperlink_status" function is run on each issue primer one at a time. After each run we row bind the "dat" dataset to our combined dataset named "full_dat" which we created just prior to running the for loop.
 
+# Conclusion 
 Please let us know if you have any questions about our code. Should you experience any issues while running the code, please contact us. 
 
 Sincerely,
