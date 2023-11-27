@@ -20,8 +20,8 @@ We store the status code as a new object ("status_code"). Status codes in the 20
 
 Finally, we row bind the new information for each individual link together to create our main dataset for the issue primer. 
 
-## The "for loop" Section:
-This section of the code takes as the input each issue primer from above. The "hyperlink_status" function is run on each issue primer one at a time. After each run we row bind the "dat" dataset to our combined dataset named "full_dat" which we created just prior to running the for loop.
+## The "final_dat" Section:
+The "hyperlink_status" function is run on each issue primer one at a time. We row bind the "dat" dataset to our combined dataset named "final_dat" after each link has finished.
 
 ## Conclusion 
 Please let us know if you have any questions about our code. Should you experience any issues while running the code, please contact us. 
