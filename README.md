@@ -16,7 +16,7 @@ The function takes a url as the input. These are read in as character objects in
 
 We then create a list of the cleaned links that will be read into the for loop. We run the same code for each link in the list. The loop begins by making a request of the link which is saved as "request_obj." We then create an object named "url_response" that takes the "request_obj" are runs a series of commands on it. We allow the code to attempt a connection for 50 seconds (i.e., "req_timeout(50)) which enables websites that load slowly -- likely due to them being hosted outside the U.S. -- to be included and read fully. We pass in a user agent and request that any errors not stop the request. Finally, we gathering the information on the request by performing a response on the link.
 
-We store the status code as a new object ("status_code"). Status codes in the 200 denote a request that is successfully received. One important note is that LinkedIn hyperlinks will return status codes in the 900s -- this is common. These links needed to be checked manually. 
+We store the status code as a new object ("status_code"). Status codes in the 200 denote a request that is successfully received. One important note is that LinkedIn hyperlinks will return status codes in the 900s -- this is common. These links need to be checked manually. 
 
 Finally, we row bind the new information for each individual link together to create our main dataset for the issue primer. 
 
